@@ -46,7 +46,6 @@ async function checkStandings() {
 
     // Comparer le classement actuel avec le classement précédent
     if (
-      previousStandings !== null &&
       JSON.stringify(currentStandings) !== JSON.stringify(previousStandings)
     ) {
       // Le classement a changé, envoyer un e-mail
