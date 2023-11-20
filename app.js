@@ -86,3 +86,4 @@ function sendEmail(standings) {
 
 // Exécuter la fonction checkStandings toutes les 60 secondes
 setInterval(checkStandings, 10000);
+console.log("test");
